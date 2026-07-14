@@ -7,7 +7,9 @@ __pycache__/
 *.pyo
 
 # Output files (generated, not source)
-output/
+output/*
+!output/.gitkeep
+
 
 # macOS junk
 .DS_Store
