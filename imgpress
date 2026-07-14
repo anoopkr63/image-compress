@@ -1,0 +1,5 @@
+#!/bin/bash
+# ImagePress wrapper — runs compress.py using the local venv
+# Usage: ./compress [same args as compress.py]
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "$DIR/.venv/bin/python3" "$DIR/compress.py" "$@"

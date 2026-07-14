@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Output files (generated, not source)
+output/
+
+# macOS junk
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
