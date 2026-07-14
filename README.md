@@ -254,3 +254,16 @@ imagepress/
 ## License
 
 MIT — free to use, modify, and share.
+
+---
+
+## 🗑️ Uninstall / Clean Up
+
+Because all dependencies were installed inside a self-contained virtual environment (`.venv/`), removing them is completely clean and will not affect the rest of your system:
+
+1. **Delete the folder:**
+   Simply drag the `imagepress/` folder to the Trash.
+
+2. **Clean your terminal settings (Optional):**
+   Open your shell configuration file (e.g., `~/.zshrc` or `~/.bashrc`) and remove the line ending with `# imagepress`.
+
