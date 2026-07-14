@@ -15,3 +15,8 @@ output/
 # Editor
 .vscode/
 .idea/
+
+# Ignore personal files in samples, but keep directory structure
+samples/*
+!samples/.gitkeep
+
