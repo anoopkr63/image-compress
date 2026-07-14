@@ -237,11 +237,12 @@ imagepress/
 
 ## Notes
 
-- Files in `samples/` are found automatically — you can type just the filename without the folder path
-- Original files are **never modified** — a new file is always created
-- WEBP at quality `100` saves as lossless
-- Resizing uses LANCZOS resampling for best quality
-- Aspect ratio is locked by default when only one dimension is given
+- **Smart File Lookup:** If a file is not found in your current working directory, the script automatically searches inside the `samples/` folder.
+- **Search Suggestions:** If the input file is not found anywhere, the script lists all files available inside the `samples/` directory to help you find the correct name.
+- **Safety First:** Original files are **never modified** — a new compressed file is created in the `output/` directory.
+- **Lossless WEBP:** Setting quality to `100` with the WEBP format saves the image as lossless.
+- **High-Quality Resize:** Image resizing utilizes LANCZOS resampling to preserve sharpness and avoid blur.
+- **Locked Aspect Ratio:** When resizing, providing only one dimension (width or height) locks the aspect ratio automatically so images don't look stretched.
 
 ---
 
