@@ -45,12 +45,6 @@ cd imagepress && bash setup.sh
 ```bash
 # Display the options guide and practical command examples
 imgpress --info
-
-# Compress a picture (shrinks file size while maintaining visual quality)
-imgpress photo.jpg
-
-# Render a PDF document into a set of optimized images
-imgpress document.pdf
 ```
 
 ---
