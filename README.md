@@ -24,56 +24,26 @@
 
 ---
 
-## Setup — do this once
+## Setup
 
-### Step 1 — Clone or download the project
+Two commands. That's it.
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/imagepress.git
 cd imagepress
+bash setup.sh
 ```
 
-### Step 2 — Create a virtual environment
+Then reload your terminal config once:
 
 ```bash
-python3 -m venv .venv
+source ~/.zshrc   # or source ~/.bashrc on Linux
 ```
 
-### Step 3 — Activate it
+`imgpress` is now available in every terminal tab.
 
-```bash
-# macOS / Linux
-source .venv/bin/activate
+> **Requirements:** Python 3.8+ must be installed. Get it from [python.org](https://www.python.org/downloads/) if needed.
 
-# Windows (Command Prompt)
-.venv\Scripts\activate
-```
-
-### Step 4 — Install dependencies
-
-```bash
-pip install Pillow pymupdf
-```
-
-### Step 5 — Make the script executable and add to PATH
-
-```bash
-chmod +x imgpress
-```
-
-Add this line to your `~/.zshrc` or `~/.bashrc`:
-
-```bash
-export PATH="/path/to/imagepress:$PATH"
-```
-
-Then reload:
-
-```bash
-source ~/.zshrc
-```
-
-Now `imgpress` works from any terminal tab, from any directory.
 
 ---
 
