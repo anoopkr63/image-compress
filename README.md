@@ -30,17 +30,10 @@ Two commands. That's it.
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/imagepress.git
-cd imagepress
-bash setup.sh
+cd imagepress && bash setup.sh
 ```
 
-Then reload your terminal config once:
-
-```bash
-source ~/.zshrc   # or source ~/.bashrc on Linux
-```
-
-`imgpress` is now available in every terminal tab.
+**Open a new terminal tab** — `imgpress` is ready.
 
 > **Requirements:** Python 3.8+ must be installed. Get it from [python.org](https://www.python.org/downloads/) if needed.
 
